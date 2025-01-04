@@ -1,5 +1,5 @@
 # my-dots
-This repo is just a temp for my personal dotfiles
+This repo is just a temp for my personal dotfiles, with Hyde Dots on arch linux.
 
 
 ## Add DEFAULT APP
