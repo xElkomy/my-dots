@@ -7,3 +7,9 @@ Like add Dolphin As defualt directory luncher
 ```bash
 xdg-mime default org.kde.dolphin.desktop inode/directory
 ```
+
+
+## For passwords and passkeys related things:
+```
+sudo pacman -S gnome-keyring
+```
