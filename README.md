@@ -18,6 +18,8 @@ sudo pacman -S gnome-keyring
 ```
 sudo mkdir -p /media/xelkomy/Data
 sudo nano /etc/fstab
+
+# To get your UUID: sudo blkid /dev/sdaWITHYOURDISKNUMBER
 UUID=CHANGETHISWITHYOURS /media/xelkomy/Data ntfs-3g defaults,nofail,uid=1000,gid=1000 0 0
 sudo systemctl daemon-reload
 sudo mount -a
