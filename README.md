@@ -13,3 +13,12 @@ xdg-mime default org.kde.dolphin.desktop inode/directory
 ```
 sudo pacman -S gnome-keyring
 ```
+
+## Create an automount for my second hardisk
+```
+sudo mkdir -p /media/xelkomy/Data
+sudo nano /etc/fstab
+UUID=CHANGETHISWITHYOURS /media/xelkomy/Data ntfs-3g defaults,nofail,uid=1000,gid=1000 0 0
+sudo systemctl daemon-reload
+sudo mount -a
+```
